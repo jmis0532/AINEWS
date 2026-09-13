@@ -6,7 +6,9 @@ app:
   html_report_path: docs/index.html
 
 collection:
-  max_items_per_source: 5
+  max_items_per_source: 10
+  max_total_items: 30
+  recent_days: 7
   rss_feeds:
     - https://openai.com/news/rss.xml
     - https://www.anthropic.com/news/rss.xml
@@ -23,4 +25,3 @@ filter:
     - safety
     - open source
     - regulation
-

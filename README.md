@@ -27,3 +27,12 @@ To publish it with GitHub Pages, push this project to GitHub and set Pages to de
 Set `OPENAI_API_KEY` in `.env` for local runs. For GitHub Actions, add the same value as a repository secret named `OPENAI_API_KEY`.
 
 The summary prompt is stored in `prompts/summary_prompt.txt` and is configured to produce Traditional Chinese output.
+## Recent item limits
+
+The radar is configured to show recent intelligence only:
+
+- `recent_days`: 7
+- `max_items_per_source`: 10
+- `max_total_items`: 30
+
+Items without a usable published date are skipped so the page stays focused on current updates.

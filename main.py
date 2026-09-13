@@ -22,6 +22,7 @@ def load_config():
 def main():
     load_dotenv(ROOT / ".env")
     config = load_config()
+    collection_config = config["collection"]
 
     db_path = ROOT / config["app"]["database_path"]
     report_path = ROOT / config["app"]["report_path"]
@@ -30,8 +31,10 @@ def main():
     init_db(db_path)
 
     raw_items = collect_rss(
-        config["collection"]["rss_feeds"],
-        max_items=config["collection"].get("max_items_per_source", 5),
+        collection_config["rss_feeds"],
+        max_items=collection_config.get("max_items_per_source", 10),
+        recent_days=collection_config.get("recent_days", 7),
+        max_total_items=collection_config.get("max_total_items", 30),
     )
     filtered_items = filter_items(raw_items, config["filter"].get("keywords", []))
 
@@ -54,6 +57,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
