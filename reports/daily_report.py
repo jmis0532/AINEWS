@@ -126,3 +126,4 @@ def write_html_report(report_path, items, summary):
 </html>
 """
     report_path.write_text(html, encoding="utf-8")
+
