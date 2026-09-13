@@ -1,0 +1,26 @@
+app:
+  name: AI Intelligence Radar
+  timezone: Asia/Taipei
+  database_path: database/radar.db
+  report_path: reports/latest_daily_report.md
+  html_report_path: docs/index.html
+
+collection:
+  max_items_per_source: 5
+  rss_feeds:
+    - https://openai.com/news/rss.xml
+    - https://www.anthropic.com/news/rss.xml
+    - https://deepmind.google/discover/blog/rss.xml
+    - https://github.blog/ai-and-ml/feed/
+
+filter:
+  keywords:
+    - artificial intelligence
+    - AI
+    - model
+    - agent
+    - benchmark
+    - safety
+    - open source
+    - regulation
+

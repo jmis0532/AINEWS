@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Intelligence Radar</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --text: #17202a;
+      --muted: #637083;
+      --line: #dbe1e8;
+      --card: #ffffff;
+      --accent: #0f766e;
+      --accent-soft: #d9f3ef;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.55; }
+    header { padding: 28px 18px 18px; background: #ffffff; border-bottom: 1px solid var(--line); }
+    main, .brand { width: min(880px, 100%); margin: 0 auto; }
+    main { padding: 18px; }
+    h1 { margin: 0 0 8px; font-size: 28px; line-height: 1.15; letter-spacing: 0; }
+    .summary { margin: 0; color: var(--muted); font-size: 15px; }
+    .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 18px 0; }
+    .stat { padding: 14px; border: 1px solid var(--line); background: var(--card); border-radius: 8px; }
+    .stat strong { display: block; font-size: 24px; line-height: 1.2; }
+    .stat span { color: var(--muted); font-size: 13px; }
+    .card, .empty { margin: 12px 0; padding: 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; color: var(--accent); font-size: 12px; font-weight: 700; text-transform: uppercase; }
+    .meta span { padding: 4px 8px; border-radius: 999px; background: var(--accent-soft); }
+    h2 { margin: 0 0 10px; font-size: 19px; line-height: 1.25; letter-spacing: 0; }
+    p { margin: 0 0 12px; }
+    footer { display: flex; justify-content: space-between; gap: 12px; align-items: center; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 12px; }
+    a { color: var(--accent); font-weight: 700; text-decoration: none; white-space: nowrap; }
+    @media (max-width: 560px) {
+      header { padding-top: 22px; }
+      h1 { font-size: 24px; }
+      main { padding: 12px; }
+      .stats { grid-template-columns: 1fr; }
+      footer { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>AI Intelligence Radar</h1>
+      <p class="summary">Found 10 relevant AI intelligence items. Category mix: agents_and_products: 1, general_ai: 3, models_and_research: 1, open_source: 5. Updated 2026-09-13 15:05.</p>
+    </div>
+  </header>
+  <main>
+    <section class="stats" aria-label="Report stats">
+      <div class="stat"><strong>10</strong><span>Relevant items</span></div>
+      <div class="stat"><strong>2</strong><span>Sources</span></div>
+    </section>
+    
+<article class="card">
+  <div class="meta"><span>Models And Research</span><span>OpenAI News</span></div>
+  <h2>Perplexity trusts GPT-6 Astra with end-to-end systems</h2>
+  <p>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</p>
+  <footer><span>Mon, 14 Sep 2026 00:00:00 GMT</span><a href="https://openai.com/index/perplexity-improving-accuracy-with-astra" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>General Ai</span><span>OpenAI News</span></div>
+  <h2>Rapidly scaling online storage to serve over 1 billion ChatGPT users</h2>
+  <p>Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</p>
+  <footer><span>Fri, 11 Sep 2026 10:00:00 GMT</span><a href="https://openai.com/index/scaling-storage-one-billion-users-part-one" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>General Ai</span><span>OpenAI News</span></div>
+  <h2>Cognition helps Devin test its own work with GPT‑6 Astra</h2>
+  <p>GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.</p>
+  <footer><span>Fri, 11 Sep 2026 16:00:00 GMT</span><a href="https://openai.com/index/cognition-devin-testing-with-astra" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>General Ai</span><span>OpenAI News</span></div>
+  <h2>How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</h2>
+  <p>César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.</p>
+  <footer><span>Thu, 10 Sep 2026 16:00:00 GMT</span><a href="https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>Agents And Products</span><span>OpenAI News</span></div>
+  <h2>Now everyone can put data to work</h2>
+  <p>Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.</p>
+  <footer><span>Thu, 10 Sep 2026 15:00:00 GMT</span><a href="https://openai.com/index/put-data-to-work" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>Open Source</span><span>The latest on AI &amp; ML - The GitHub Blog</span></div>
+  <h2>Marketing ops as code: Automating events from planning to follow-up on GitHub</h2>
+  <p>&lt;p&gt;If you can write down how you do your work, you can automate it. Here&#x27;s what I did to support GitHub&#x27;s APAC marketing team.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/&quot;&gt;Marketing ops as code: Automating events from planning to follow-up on GitHub&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;</p>
+  <footer><span>Fri, 11 Sep 2026 18:26:10 +0000</span><a href="https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>Open Source</span><span>The latest on AI &amp; ML - The GitHub Blog</span></div>
+  <h2>GitHub Copilot app for Beginners: Using the diff, terminal, and browser</h2>
+  <p>&lt;p&gt;Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/&quot;&gt;GitHub Copilot app for Beginners: Using the diff, terminal, and browser&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;</p>
+  <footer><span>Thu, 10 Sep 2026 21:31:19 +0000</span><a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>Open Source</span><span>The latest on AI &amp; ML - The GitHub Blog</span></div>
+  <h2>Project HydraFusion: Frontier quality via multi-model orchestration</h2>
+  <p>&lt;p&gt;In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/&quot;&gt;Project HydraFusion: Frontier quality via multi-model orchestration&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;</p>
+  <footer><span>Fri, 04 Sep 2026 16:04:14 +0000</span><a href="https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>Open Source</span><span>The latest on AI &amp; ML - The GitHub Blog</span></div>
+  <h2>GitHub Copilot app for Beginners: Run several agents at once</h2>
+  <p>&lt;p&gt;Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/&quot;&gt;GitHub Copilot app for Beginners: Run several agents at once&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;</p>
+  <footer><span>Thu, 03 Sep 2026 16:00:00 +0000</span><a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+<article class="card">
+  <div class="meta"><span>Open Source</span><span>The latest on AI &amp; ML - The GitHub Blog</span></div>
+  <h2>Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!</h2>
+  <p>&lt;p&gt;From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/&quot;&gt;Decoding the new AI lingo: Loops, harnesses, squads, hill climbing&amp;#8230; oh my!&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;</p>
+  <footer><span>Wed, 02 Sep 2026 21:00:00 +0000</span><a href="https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/" target="_blank" rel="noopener">Open source</a></footer>
+</article>
+  </main>
+</body>
+</html>
