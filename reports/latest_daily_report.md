@@ -1,17 +1,17 @@
 # AI Intelligence Daily Report
 
-Generated at: 2026-09-13 15:29
+Generated at: 2026-09-13 15:31
 
 ## Summary
 
-今天找到 10 則相關 AI 情報。分類分布為：agents and products：1 則、general ai：3 則、models and research：1 則、open source：5 則。
+今天找到 10 則相關 AI 情報。分類分布為：代理與產品：1 則、AI 綜合：3 則、模型與研究：1 則、開源生態：5 則。
 
 ## Items
 
 ### Perplexity trusts GPT-6 Astra with end-to-end systems
 
 - Source: OpenAI News
-- Category: models_and_research
+- Category: 模型與研究
 - Published: Mon, 14 Sep 2026 00:00:00 GMT
 - URL: https://openai.com/index/perplexity-improving-accuracy-with-astra
 
@@ -20,7 +20,7 @@ Perplexity uses Astra to write communications, change software, and monitor prod
 ### Rapidly scaling online storage to serve over 1 billion ChatGPT users
 
 - Source: OpenAI News
-- Category: general_ai
+- Category: AI 綜合
 - Published: Fri, 11 Sep 2026 10:00:00 GMT
 - URL: https://openai.com/index/scaling-storage-one-billion-users-part-one
 
@@ -29,7 +29,7 @@ Learn how OpenAI evolved Habitat from a Python library into a globally distribut
 ### Cognition helps Devin test its own work with GPT‑6 Astra
 
 - Source: OpenAI News
-- Category: general_ai
+- Category: AI 綜合
 - Published: Fri, 11 Sep 2026 16:00:00 GMT
 - URL: https://openai.com/index/cognition-devin-testing-with-astra
 
@@ -38,7 +38,7 @@ GPT‑6 Astra improves Devin’s ability to test software and show that it works
 ### How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
 
 - Source: OpenAI News
-- Category: general_ai
+- Category: AI 綜合
 - Published: Thu, 10 Sep 2026 16:00:00 GMT
 - URL: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
 
@@ -47,7 +47,7 @@ César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct 
 ### Now everyone can put data to work
 
 - Source: OpenAI News
-- Category: agents_and_products
+- Category: 代理與產品
 - Published: Thu, 10 Sep 2026 15:00:00 GMT
 - URL: https://openai.com/index/put-data-to-work
 
@@ -56,7 +56,7 @@ Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and
 ### Marketing ops as code: Automating events from planning to follow-up on GitHub
 
 - Source: The latest on AI & ML - The GitHub Blog
-- Category: open_source
+- Category: 開源生態
 - Published: Fri, 11 Sep 2026 18:26:10 +0000
 - URL: https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/
 
@@ -65,7 +65,7 @@ If you can write down how you do your work, you can automate it. Here's what I d
 ### GitHub Copilot app for Beginners: Using the diff, terminal, and browser
 
 - Source: The latest on AI & ML - The GitHub Blog
-- Category: open_source
+- Category: 開源生態
 - Published: Thu, 10 Sep 2026 21:31:19 +0000
 - URL: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/
 
@@ -74,7 +74,7 @@ Checking agent-generated code usually means hopping between tabs. Learn how to v
 ### Project HydraFusion: Frontier quality via multi-model orchestration
 
 - Source: The latest on AI & ML - The GitHub Blog
-- Category: open_source
+- Category: 開源生態
 - Published: Fri, 04 Sep 2026 16:04:14 +0000
 - URL: https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/
 
@@ -83,7 +83,7 @@ In controlled offline evaluations, HydraFusion’s selective coding workflows ma
 ### GitHub Copilot app for Beginners: Run several agents at once
 
 - Source: The latest on AI & ML - The GitHub Blog
-- Category: open_source
+- Category: 開源生態
 - Published: Thu, 03 Sep 2026 16:00:00 +0000
 - URL: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/
 
@@ -92,7 +92,7 @@ Learn how to run parallel agents in the GitHub Copilot app, and experience the m
 ### Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!
 
 - Source: The latest on AI & ML - The GitHub Blog
-- Category: open_source
+- Category: 開源生態
 - Published: Wed, 02 Sep 2026 21:00:00 +0000
 - URL: https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/
 

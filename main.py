@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from collectors.rss import collect_rss
 from ai.filter import filter_items
 from ai.classify import classify_item
-from ai.summarize import summarize_items
+from ai.summarize import localize_items, summarize_items
 from database.db import init_db, save_items
 from reports.daily_report import write_daily_report, write_html_report
 
@@ -42,6 +42,7 @@ def main():
 
     save_items(db_path, enriched_items)
     summary_prompt = (ROOT / "prompts" / "summary_prompt.txt").read_text(encoding="utf-8")
+    enriched_items = localize_items(enriched_items, prompt=summary_prompt)
     summary = summarize_items(enriched_items, prompt=summary_prompt)
     write_daily_report(report_path, enriched_items, summary)
     write_html_report(html_report_path, enriched_items, summary)
@@ -53,4 +54,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 

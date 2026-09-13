@@ -21,18 +21,18 @@ def write_daily_report(report_path, items, summary):
     ]
 
     if not items:
-        lines.append("No relevant items found.")
+        lines.append("No 相關情報 found.")
     else:
         for item in items:
             lines.extend([
-                f"### {item.get('title', 'Untitled')}",
+                f"### {item.get('zh_title') or item.get('title', 'Untitled')}",
                 "",
                 f"- Source: {item.get('source', '')}",
-                f"- Category: {item.get('category', 'general_ai')}",
+                f"- Category: {item.get('zh_category') or item.get('category', 'general_ai')}",
                 f"- Published: {item.get('published', '')}",
                 f"- URL: {item.get('url', '')}",
                 "",
-                item.get("summary", "").strip(),
+                (item.get("zh_summary") or item.get("summary", "")).strip(),
                 "",
             ])
 
@@ -46,16 +46,16 @@ def write_html_report(report_path, items, summary):
 
     cards = []
     if not items:
-        cards.append('<article class="empty">No relevant items found.</article>')
+        cards.append('<article class="empty">今天沒有找到符合條件的 AI 情報。</article>')
     else:
         for item in items:
-            title = escape(item.get("title", "Untitled"))
+            title = escape(item.get("zh_title") or item.get("title", "Untitled"))
             source = escape(item.get("source", ""))
-            category = escape(item.get("category", "general_ai").replace("_", " ").title())
+            category = escape(item.get("zh_category") or item.get("category", "general_ai").replace("_", " ").title())
             published = escape(item.get("published", ""))
             url = escape(item.get("url", ""), quote=True)
-            item_summary = escape(item.get("summary", "").strip())
-            link = f'<a href="{url}" target="_blank" rel="noopener">Open source</a>' if url else ""
+            item_summary = escape((item.get("zh_summary") or item.get("summary", "")).strip())
+            link = f'<a href="{url}" target="_blank" rel="noopener">閱讀來源</a>' if url else ""
             cards.append(f"""
 <article class="card">
   <div class="meta"><span>{category}</span><span>{source}</span></div>
@@ -112,13 +112,13 @@ def write_html_report(report_path, items, summary):
   <header>
     <div class="brand">
       <h1>AI Intelligence Radar</h1>
-      <p class="summary">{escape(summary)} Updated {escape(generated_at)}.</p>
+      <p class="summary">{escape(summary)} 更新時間：{escape(generated_at)}.</p>
     </div>
   </header>
   <main>
     <section class="stats" aria-label="Report stats">
-      <div class="stat"><strong>{len(items)}</strong><span>Relevant items</span></div>
-      <div class="stat"><strong>{len(set(item.get('source', '') for item in items))}</strong><span>Sources</span></div>
+      <div class="stat"><strong>{len(items)}</strong><span>相關情報</span></div>
+      <div class="stat"><strong>{len(set(item.get('source', '') for item in items))}</strong><span>資料來源</span></div>
     </section>
     {''.join(cards)}
   </main>
@@ -126,4 +126,5 @@ def write_html_report(report_path, items, summary):
 </html>
 """
     report_path.write_text(html, encoding="utf-8")
+
 
