@@ -41,7 +41,8 @@ def main():
         enriched_items.append(item)
 
     save_items(db_path, enriched_items)
-    summary = summarize_items(enriched_items)
+    summary_prompt = (ROOT / "prompts" / "summary_prompt.txt").read_text(encoding="utf-8")
+    summary = summarize_items(enriched_items, prompt=summary_prompt)
     write_daily_report(report_path, enriched_items, summary)
     write_html_report(html_report_path, enriched_items, summary)
 
@@ -52,3 +53,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

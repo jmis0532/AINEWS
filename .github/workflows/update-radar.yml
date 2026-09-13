@@ -23,6 +23,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate latest report
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_SUMMARY_MODEL: gpt-4.1-mini
         run: python main.py
 
       - name: Commit updated report
@@ -36,3 +39,4 @@ jobs:
             git commit -m "Update AI intelligence radar report"
             git push
           fi
+

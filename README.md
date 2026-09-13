@@ -22,3 +22,8 @@ This is a runnable minimum version. API collectors are placeholders for now; RSS
 Running `python main.py` now also writes a mobile-friendly web page to `docs/index.html`.
 
 To publish it with GitHub Pages, push this project to GitHub and set Pages to deploy from the `docs` folder on the main branch. Your phone can then open the GitHub Pages URL to view the latest radar report.
+## AI summary
+
+Set `OPENAI_API_KEY` in `.env` for local runs. For GitHub Actions, add the same value as a repository secret named `OPENAI_API_KEY`.
+
+The summary prompt is stored in `prompts/summary_prompt.txt` and is configured to produce Traditional Chinese output.

@@ -1,10 +1,10 @@
 # AI Intelligence Daily Report
 
-Generated at: 2026-09-13 07:14
+Generated at: 2026-09-13 15:19
 
 ## Summary
 
-Found 10 relevant AI intelligence items. Category mix: agents_and_products: 1, general_ai: 3, models_and_research: 1, open_source: 5.
+今天找到 10 則相關 AI 情報。分類分布為：agents and products：1 則、general ai：3 則、models and research：1 則、open source：5 則。
 
 ## Items
 
