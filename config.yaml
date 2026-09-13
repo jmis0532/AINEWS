@@ -12,8 +12,6 @@ collection:
   rss_feeds:
     - https://openai.com/news/rss.xml
     - https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/
-    - https://aws.amazon.com/blogs/machine-learning/feed/
-    - https://aws.amazon.com/blogs/aws/category/artificial-intelligence/amazon-machine-learning/feed/
     - https://devblogs.microsoft.com/foundry/feed/
 
 filter:
@@ -33,18 +31,14 @@ filter:
     - OpenAI
     - GPT
     - ChatGPT
+    - Codex
     - Gemini
     - Vertex AI
     - Google Cloud
-    - AWS
-    - Bedrock
-    - SageMaker
     - Azure AI
     - Azure OpenAI
     - Microsoft Foundry
     - cloud
-    - infrastructure
-    - GPU
     - benchmark
     - safety
     - regulation

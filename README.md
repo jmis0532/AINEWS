@@ -38,10 +38,5 @@ The radar is configured to show recent intelligence only:
 Items without a usable published date are skipped so the page stays focused on current updates.
 ## Tracked platform sources
 
-The radar now focuses on usable large-language-model platform updates across:
+The radar now focuses on usable large-language-model platform updates across:\r\n\r\n- OpenAI News\r\n- Google Cloud AI & Machine Learning\r\n- Microsoft Azure AI Foundry
 
-- OpenAI News
-- Google Cloud AI & Machine Learning
-- AWS Machine Learning
-- AWS News AI / Machine Learning
-- Microsoft Azure AI Foundry

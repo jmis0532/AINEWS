@@ -1,10 +1,10 @@
 # AI Intelligence Daily Report
 
-Generated at: 2026-09-13 15:45
+Generated at: 2026-09-13 15:48
 
 ## Summary
 
-今天找到 26 則相關 AI 情報。分類分布為：代理與產品：1 則、AWS Bedrock / AI：6 則、Azure AI：2 則、AI 綜合：1 則、Google Gemini / Cloud：3 則、模型與研究：1 則、OpenAI 平台：12 則。
+今天找到 15 則相關 AI 情報。分類分布為：Azure AI：2 則、Google Gemini / Cloud：3 則、OpenAI 平台：10 則。
 
 ## Items
 
@@ -16,33 +16,6 @@ Generated at: 2026-09-13 15:45
 - URL: https://openai.com/index/perplexity-improving-accuracy-with-astra
 
 Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.
-
-### Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations
-
-- Source: Artificial Intelligence
-- Category: AWS Bedrock / AI
-- Published: Fri, 11 Sep 2026 18:26:38 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/
-
-Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for continuous quality scoring and AWS DevOps Agent for autonomous infrastructure investigation, shown on a four-agent airline reservation system.
-
-### Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload
-
-- Source: Artificial Intelligence
-- Category: OpenAI 平台
-- Published: Fri, 11 Sep 2026 18:24:38 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/
-
-Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.
-
-### Build interactive MCP Apps using Amazon Bedrock AgentCore
-
-- Source: Artificial Intelligence
-- Category: OpenAI 平台
-- Published: Fri, 11 Sep 2026 18:23:17 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/
-
-Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.
 
 ### Cognition helps Devin test its own work with GPT‑6 Astra
 
@@ -62,42 +35,6 @@ GPT‑6 Astra improves Devin’s ability to test software and show that it works
 
 Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.
 
-### Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference
-
-- Source: Artificial Intelligence
-- Category: AWS Bedrock / AI
-- Published: Thu, 10 Sep 2026 21:58:09 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/
-
-Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduced P50 time-to-first-token by up to 77% and raised KV cache hit rates from about 25% to over 80%.
-
-### Reduce inference cold starts on Amazon SageMaker HyperPod with model caching
-
-- Source: Artificial Intelligence
-- Category: AWS Bedrock / AI
-- Published: Thu, 10 Sep 2026 21:37:49 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/
-
-Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to enable it.
-
-### Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0
-
-- Source: Artificial Intelligence
-- Category: AWS Bedrock / AI
-- Published: Thu, 10 Sep 2026 21:15:39 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/
-
-TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows how to build a knowledge base powered by Marengo 3.0 and run semantic queries against your media.
-
-### Amazon Quick is now generally available on desktop
-
-- Source: Artificial Intelligence
-- Category: AI 綜合
-- Published: Thu, 10 Sep 2026 18:16:37 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/
-
-Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desktop application is generally available on macOS and Windows. We’re also adding a new activity feed to the mobile experience on iOS and Android that consolidates email, calendar, CRM, […]
-
 ### Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization
 
 - Source: Microsoft Foundry Blog
@@ -107,24 +44,6 @@ Your teams get an AI assistant that handles real work while your data stays in y
 
 Learn how Azure AI Speech LLM 2607 improves multilingual and mixed-language recognition, lowers latency, and simplifies domain-specific customization with enhanced phrase lists. The post Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization appeared first on Microsoft Foundry Blog .
 
-### Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate
-
-- Source: Artificial Intelligence
-- Category: 代理與產品
-- Published: Thu, 10 Sep 2026 16:08:57 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/
-
-Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use natural-language prompts to extract and structure the questionnaire data, refine the workflow through conversation, and write clean CSV output back to Amazon S3 — cutting development from days to hours.
-
-### Model-agnostic PII detection with LLMs
-
-- Source: Artificial Intelligence
-- Category: AWS Bedrock / AI
-- Published: Thu, 10 Sep 2026 16:02:16 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/
-
-A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity types without retraining, and it outperforms an off-the-shelf tool across five public corpora and nine LLM-based detectors.
-
 ### How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
 
 - Source: OpenAI News
@@ -133,15 +52,6 @@ A configurable, model-agnostic detector that turns any large language model on A
 - URL: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
 
 César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.
-
-### Agent Evaluation Metric for multi-turn conversations
-
-- Source: Artificial Intelligence
-- Category: 模型與研究
-- Published: Thu, 10 Sep 2026 15:55:41 +0000
-- URL: https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/
-
-Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure agent quality, applied to its first dimension, correctness, to pinpoint the turn that caused a failure and separate it from the turns that inherited it.
 
 ### Now everyone can put data to work
 
@@ -232,12 +142,3 @@ Chris Lehane argues that stronger AI capabilities require stronger safety eviden
 - URL: https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/
 
 When building consumer-facing generative AI applications, balancing high generation quality with fast response times across diverse media types, can be challenging. KDDI, a major telecommunications carrier in Japan, tackled this challenge head-on when they developed Buffmee, their consumer Retrieval-Augmented Generation (RAG) app. Buffmee is an interactive AI service built on the concept of 'AI that helps you grow.' By grounding responses in over 100 sources — including books, magazines, and web media — it helps users search for information, summarize key points, and explore personalized learning and hobby interests. By citing sources, Buffmee alleviates concerns about information reliability, allowing users to safely deepen their knowledge. To achieve this, KDDI collaborated closely with their development partner KDDI iret, Google Cloud Consulting and our specialized AI engineers. As part of their app launch, the engineer team needed to ground a massive variety of proprietary content, including books and magazines. However, they struggled with latency issues that prevented them from meeting their target response times, and they needed a reliable way to ensure hallucination-free results. Buffmee App Description and Images To meet these performance targets, organizations need a systematic approach to AI evaluation and real-time bottleneck identification. That is why we are sharing the automated evaluation framework and performance optimization techniques that helped KDDI successfully launch their application. The results were inspiring: KDDI reduced total application response latency by 38%, successfully hitting their target response performance. They also achieved a nearly 18% improvement in TTFT. "Our vision hinged on a platform where content, once ingested, would instantly function as a working RAG system. Google's careful, hands-on guidance made that a reality — we're sincerely grateful for their support." — Shunya Onoda, AI Product Department, KDDI. With these performance and accuracy improvements, Buffmee now empowers users to safely explore their favorite media through interactive Q&A and deep-dive analysis, delivering a highly personalized experience while maintaining strict trust and compliance for content providers. Let’s deep dive into how they achieved these results. Establish automated evaluation for diverse content Traditional manual testing requires immense effort and cannot scale to accommodate a large content library. To solve this, the development team designed a systematic AI evaluation process using Gemini Enterprise Agent Platform Evaluation Service. By implementing automated evaluation frameworks like LLM-as-a-Judge and the Rule of Hundreds, the team replaced labor-intensive manual testing with a data-driven process. They ingested their extensive document corpus, constructed hundreds of automated evaluation tests, and built a comprehensive benchmark dataset to measure the reliability of answers for each use case. As a result, the team improved their groundedness scores by 25%, helping deliver highly accurate and reliable outputs. KDDI's automated evaluation loop: AI generates questions and scores answers, while humans calibrate thresholds and analyze edge-case failures. Identify bottlenecks and optimize performance with an agentic loop To improve response speeds, the team implemented BigQuery Agent Analytics and the Agent Development Kit (ADK) log analysis agent. By analyzing actual production logs, they visualized how skill division and prompt bloat—especially with highly complex, multi-page system prompts — impacted the Time To First Token (TTFT). The team optimized the system prompt, including the inline integration of skills, and reviewed the sub-agent routing. This allowed them to identify and resolve deep-stack bottlenecks in real time without sacrificing response accuracy. Four core principles for reliable evaluation To achieve these results, the team implemented four core technical practices: Transitioning to binary evaluation: By selectively moving away from ambiguous 1–5 ratings to a binary "pass (1) / fail (0)" system for critical metrics, the team minimized variance and noise, helping improve automation accuracy. Strategic content sampling: Rather than attempting to evaluate every single document, the team classified their entire corpus along a two-dimensional grid: File Format (Web articles, EPUBs, PDFs, structured data) and Media Composition (Text-heavy, image-heavy, or mixed). By selecting representative samples from each cell of this difficulty grid, they reduced the evaluation workload by 75% while maintaining comprehensive test coverage. Thresholds grounded in product judgment: Instead of relying solely on default tool parameters, the product owner reviewed randomly sampled answers alongside their automated scores to calibrate and establish what "good enough to ship" actually meant for the user experience. Modular splitting of massive prompts into ADK Skills: Because massive system prompts exceeding 800 lines can cause LLM attention drift and latency degradation, the team split prompts by function into Agent Development Kit (ADK) Skills, dynamically loading only the required logic to optimize response times. Get started Building scalable, reliable generative AI applications requires both automated evaluation and deep performance analytics. To apply these techniques to your own applications: Measure quality systematically with the Gen AI evaluation service Structure your agents with Agent Development Kit and apply progressive disclosure deliberately Ground your agents with Agent Search and inspect your retrieval queries
-
-### AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)
-
-- Source: Amazon Machine Learning – AWS News Blog
-- Category: AWS Bedrock / AI
-- Published: Mon, 07 Sep 2026 14:24:08 +0000
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/
-
-Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its […]
