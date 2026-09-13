@@ -6,6 +6,11 @@ from openai import OpenAI
 
 def _category_label(category):
     labels = {
+        "openai_platform": "OpenAI 平台",
+        "google_gemini_cloud": "Google Gemini / Cloud",
+        "aws_bedrock": "AWS Bedrock / AI",
+        "azure_ai": "Azure AI",
+        "cloud_llm_platforms": "雲端大模型平台",
         "policy_and_safety": "政策與安全",
         "open_source": "開源生態",
         "models_and_research": "模型與研究",
@@ -134,3 +139,4 @@ def summarize_items(items, prompt=None):
         return response.output_text.strip()
     except Exception as exc:
         return _fallback_summary(items) + f"\n\nAI 摘要暫時無法產生：{exc}"
+

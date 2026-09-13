@@ -11,17 +11,40 @@ collection:
   recent_days: 7
   rss_feeds:
     - https://openai.com/news/rss.xml
-    - https://www.anthropic.com/news/rss.xml
-    - https://deepmind.google/discover/blog/rss.xml
-    - https://github.blog/ai-and-ml/feed/
+    - https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/
+    - https://aws.amazon.com/blogs/machine-learning/feed/
+    - https://aws.amazon.com/blogs/aws/category/artificial-intelligence/amazon-machine-learning/feed/
+    - https://devblogs.microsoft.com/foundry/feed/
 
 filter:
   keywords:
     - artificial intelligence
     - AI
     - model
+    - LLM
+    - large language model
+    - generative AI
     - agent
+    - multimodal
+    - API
+    - fine-tuning
+    - RAG
+    - context window
+    - OpenAI
+    - GPT
+    - ChatGPT
+    - Gemini
+    - Vertex AI
+    - Google Cloud
+    - AWS
+    - Bedrock
+    - SageMaker
+    - Azure AI
+    - Azure OpenAI
+    - Microsoft Foundry
+    - cloud
+    - infrastructure
+    - GPU
     - benchmark
     - safety
-    - open source
     - regulation

@@ -36,3 +36,12 @@ The radar is configured to show recent intelligence only:
 - `max_total_items`: 30
 
 Items without a usable published date are skipped so the page stays focused on current updates.
+## Tracked platform sources
+
+The radar now focuses on usable large-language-model platform updates across:
+
+- OpenAI News
+- Google Cloud AI & Machine Learning
+- AWS Machine Learning
+- AWS News AI / Machine Learning
+- Microsoft Azure AI Foundry
